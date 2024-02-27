@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Client {
+    public static void main(String[] args) {
+        Child obj = new Child();
+        System.out.println(obj.d1);
+        System.out.println(obj.d);
+        obj.fun1();
+        obj.fun();
+        obj.sfun();
+    }
+}
